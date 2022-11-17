@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 75%;
+  margin: 2% auto;
+  border: 1px solid black;
+  padding: 10px;
+}
+div {
+  margin-top: 15px;
+}
+.name {
+  margin: 0;
+}
+.first {
+  margin: 0;
+}
+.last {
+  margin: 0;
+}
+.box {
+  display: flex;
+  justify-content: flex-start;
+  gap: 7px;
+  margin: 0;
+}
+.checked {
+  color: gold;
+}
+.table1,
+.table2 {
+  width: 100%;
+  border-collapse: collapse;
+}
+.required {
+  color: red;
+  font-size: smaller;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgb(244, 244, 244);
+  border-radius: 10px;
+}
+tbody tr td {
+  width: 200px;
+  padding: 5px;
+}
+td {
+  text-align: center;
+}
+textarea {
+  width: 100%;
+}
+label {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+button {
+  padding: 10px;
+}
+h6 {
+  font-weight: lighter;
+}
+h5 {
+  margin: 0;
+  font-weight: lighter;
+}
